@@ -59,7 +59,19 @@ public class IntroToRandom {
 		/*************  Random integers with an upper and lower (negative) limit  *************/
 		
 		// Using the above example, generate 5 random numbers between -222 and 88
-
+		
+		for (int i=0; i<5; i++) {
+			number = ran.nextInt (310)-222;
+			System.out.println(number);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
 
 	}
 }
